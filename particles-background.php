@@ -2,7 +2,7 @@
 /*
  * Plugin Name: Particles Background Ultimate by DDG - site go-studio.pro
 * Description: Полные настройки фона из частиц с выбором страниц и цветов
- * Plugin URI: https://www.go-studio.pro/plugin/particles 
+ * Plugin URI: https://github.com/ddg-griggs/particles-background 
  * Plugin Info: wp-content/plugins/particles-background/readme.txt
  * Description: [EN] Animated waves on the background of the site with color settings and the number of page IDs. [RU] Анимированные волны на фоне сайта с настройками цвета, и количества ID страниц.
  * Version: 2.0 : 17.05.2025
