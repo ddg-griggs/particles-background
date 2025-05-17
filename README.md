@@ -74,11 +74,12 @@ URI лицензии: https://www.gnu.org/licenses/gpl-2.0.html
 == Настройка ==
 Добавьте это в файл functions.php вашей темы для расширенного управления:
 
-php
+```php
 add_filter('ddg_particles_config', function($config) {
 $config['particles']['shape']['type'] = 'triangle'; // Изменить форму
 return $config;
 });
+```
 
 Descriptions for the Particles Background Ultimate by DDG plugin - site go-studio.pro in Russian and English:
 
@@ -162,4 +163,4 @@ add_filter('ddg_particles_config', function($config) {
     $config['particles']['shape']['type'] = 'triangle'; // Change shape
     return $config;
 });
-
+```
