@@ -74,8 +74,92 @@ URI лицензии: https://www.gnu.org/licenses/gpl-2.0.html
 == Настройка ==
 Добавьте это в файл functions.php вашей темы для расширенного управления:
 
-```php
+php
 add_filter('ddg_particles_config', function($config) {
 $config['particles']['shape']['type'] = 'triangle'; // Изменить форму
 return $config;
 });
+
+Descriptions for the Particles Background Ultimate by DDG plugin - site go-studio.pro in Russian and English:
+
+[EN]
+
+=== Particles Background Ultimate by DDG ===
+Contributors: go-studio.pro
+Tags: particles, background, animation, canvas, effects
+Requires at least: WordPress 5.6
+Tested up to: WordPress 6.5
+Stable tag: 1.6
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+
+Create stunning interactive particle backgrounds with full customization options.
+
+== Description ==
+
+Professional particle system for WordPress that creates dynamic, interactive backgrounds. Perfect for creative websites, portfolios, and landing pages.
+
+**Key Features:**
+- 🎨 3 customizable particle colors
+- ↔️ Adjustable connection lines (on/off, color, width)
+- 🚀 Control particle count (10-500) and speed
+- 🌈 Gradient background support with angle control
+- 📌 Display on selected pages only
+- 🖱️ Interactive mouse effects (hover/click)
+- 📱 Fully responsive design
+
+== Installation ==
+
+1. Upload the `particles-background` folder to `/wp-content/plugins/`
+2. Activate the plugin through 'Plugins' menu in WordPress
+3. Go to Settings → Particles by DDG to configure
+
+
+== Frequently Asked Questions ==
+
+= How do I change particle colors? =
+Go to Settings → Particles by DDG and use the color pickers for Primary, Secondary and Tertiary colors.
+
+= Can I use gradients for background? =
+Yes! Select "Gradient" as background type and set your colors + angle (0-360°).
+
+= Why don't I see particles on my page? =
+1. Check if the page is selected in plugin settings
+2. Ensure your theme has `wp_body_open()` hook
+3. Disable any caching plugins temporarily
+
+= How to add particles to specific pages only? =
+In plugin settings, select pages from the multi-select dropdown (hold CTRL for multiple).
+
+== Screenshots ==
+1. Plugin settings page - Configure all particle parameters
+2. Frontend demo - Interactive particles with connection lines
+3. Mobile view - Fully responsive particle system
+
+== Changelog ==
+
+= 1.6 =
+* Added gradient angle control
+* Fixed mobile responsiveness
+* Improved performance
+
+= 1.5 =
+* Added 3-color system for particles
+* Line connection controls
+* WordPress 6.5 compatibility
+
+= 1.0 =
+* Initial release with basic particle system
+
+== Upgrade Notice ==
+1.6 includes critical performance improvements - recommended for all users.
+
+== Customization ==
+Add this to your theme's functions.php for advanced control:
+
+```php
+add_filter('ddg_particles_config', function($config) {
+    $config['particles']['shape']['type'] = 'triangle'; // Change shape
+    return $config;
+});
+
