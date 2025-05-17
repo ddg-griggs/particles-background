@@ -3,7 +3,7 @@
 [RU]
 
 === Particles Background Ultimate от DDG ===
-Участники: Дорел Данков
+Участники: go-studio.pro
 Теги: частицы, фон, анимация, холст, эффекты
 Требуется как минимум: WordPress 5.6
 Протестировано до: WordPress 6.5
@@ -86,7 +86,7 @@ Descriptions for the Particles Background Ultimate by DDG plugin - site go-studi
 [EN]
 
 === Particles Background Ultimate by DDG ===
-Contributors: Dorel Dankov
+Contributors: go-studio.pro
 Tags: particles, background, animation, canvas, effects
 Requires at least: WordPress 5.6
 Tested up to: WordPress 6.5
